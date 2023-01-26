@@ -5,22 +5,27 @@ Blog App using; Spring Boot &amp; React &amp; JWT &amp; PostgreSQL
 https://github.com/feyzabecerr/Blog-AppFrontend
 
 ### Endpoints 
-* Register
-`POST /auth/register HTTP/1.1
-Host: localhost:8080
-Content-Type: application/json
+### Register
+
+```
+POST /auth/register HTTP/1.1 
+Host: localhost:8080 
+Content-Type: application/json 
 {
     "username": "user",
     "email": "user@gmail.com",
     "password": "password"
-}`
+}
+```
 
-* Log-in
- `POST /auth/login HTTP/1.1
+### Log-in
+
+```
+POST /auth/login HTTP/1.1 
 Host: localhost:8080
-Content-Type: application/json
-
+Content-Type: application/json 
 {
     "username": "user",
     "password": "password"
-}`
+}
+```
